@@ -88,4 +88,27 @@
 .wrapper {
     margin: 0 auto;
   }
+
+  /* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+.btn {
+    line-height: 40px;
+    padding: 0 33px;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .btn-shape {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  
+  .btn-color {
+    background: #189D9E;
+  }
+  
   
