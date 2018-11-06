@@ -61,3 +61,31 @@
     background:radial-gradient(ellipse at center, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22E6E6', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
   }
+
+  /* ==========================================================================
+   #SPACING
+   ========================================================================== */
+.main-padding {
+    padding-top: 100px;
+    /* padding-bottom: 75px; */
+  }
+  
+  .p-t-20 {
+    padding-top: 20px;
+  }
+  
+  /* .p-t-10 {
+    padding-top: 10px;
+  } */
+  
+  .p-t-30 {
+    padding-top: 30px;
+  }
+
+  /* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper {
+    margin: 0 auto;
+  }
+  
