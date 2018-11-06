@@ -185,7 +185,7 @@ input {
   }
   
   .card-3 .card-left {
-    background: url("../images/lunch.jpg") top left/cover no-repeat;
+    background: url("images/lunch.jpg") top left/cover no-repeat;
     display: table-cell;
     width: 50%;
   }
