@@ -101,7 +101,7 @@
 .btn {
     line-height: 40px;
     padding: 0 33px;
-    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    /* font-family: Poppins, Arial, "Helvetica Neue", sans-serif; */
     cursor: pointer;
     color: #fff;
     font-size: 16px;
@@ -115,6 +115,14 @@
   
   .btn-color {
     background: #189D9E;
+  }
+
+  .btn-left {
+    float: left;
+  }
+
+  .btn-right {
+      float: right;
   }
 
   /* ==========================================================================
@@ -187,7 +195,7 @@ input {
   .card-3 .card-left {
     background: url("images/lunch.jpg") top left/cover no-repeat;
     display: table-cell;
-    width: 50%;
+    width: 60%;
   }
   
   .card-3 .card-right {
