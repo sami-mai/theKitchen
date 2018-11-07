@@ -36,10 +36,6 @@
     color: white;
   } */
 
-  li {
-    color: white;
-  }
-
   .navbar {
       /* background-color: #00406E; */
       padding-top: 10px;
@@ -62,6 +58,7 @@
     font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
+    overflow: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -95,7 +92,7 @@
    #SPACING
    ========================================================================== */
 .main-padding {
-    padding-top: 70px;
+    /* padding-top: 70px; */
     /* padding-bottom: 75px; */
   }
   
