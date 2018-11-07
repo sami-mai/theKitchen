@@ -48,11 +48,11 @@
     <div class="row">
       <div class="col-md-3">
         <div class="list-group">
-          <button type="button" class="list-group-item list-group-item-success">Cras justo odio</button>
-          <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
-          <button type="button" class="list-group-item">Morbi leo risus</button>
-          <button type="button" class="list-group-item">Porta ac consectetur ac</button>
-          <button type="button" class="list-group-item">Vestibulum at eros</button>
+          <button type="button" class="list-group-item list-group-item-success">Rice Aroni</button>
+          <button type="button" class="list-group-item">Rice Plain</button>
+          <button type="button" class="list-group-item">Couscous</button>
+          <button type="button" class="list-group-item">Sauteed Potatoes</button>
+          <button type="button" class="list-group-item">Ugali</button>
         </div>
       </div>
       <div class="col-md-8">
@@ -63,38 +63,47 @@
               <input type="text" class="form-control" id="foodName">
             </div>
           </div>
+
           <div class="form-group">
-            <label for="foodName" class="col-md-2 control-label">Name:</label>
+            <label for="foodName" class="col-md-2 control-label">Cuisine:</label>
             <div class="col-md-10">
               <input type="text" class="form-control" id="foodName">
             </div>
           </div>
           <div class="form-group">
-            <label for="foodName" class="col-md-2 control-label">Name:</label>
+            <label for="foodName" class="col-md-2 control-label">Description:</label>
             <div class="col-md-10">
-              <input type="text" class="form-control" id="foodName">
+              <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
           </div>
+          <!-- dietary restrictions -->
           <div class="form-group">
-            <label for="foodName" class="col-md-2 control-label">Name:</label>
-            <div class="col-md-10">
-              <input type="text" class="form-control" id="foodName">
+            <label for="diet" class="col-md-2 control-label">Diet:</label>
+            <div class="col-md-10 input">
+              <select name="search[diet]">
+                <option value="">Non-vegan</option>
+                <option value="1">Vegan-friendly</option>
+                <option value="2">Vegetarian</option>
+                <option value="3">Vegan</option>
+              </select><br>
             </div>
           </div>
 
+          <!-- Upload file -->
           <div class="form-group">
             <label for="file-upload" class="col-md-2 control-label">Upload:</label>
             <div class="col-md-10">
               <input type="file" id="file-upload">
             </div>
           </div>
+          <!-- Submit button -->
           <div class="form-group">
             <div class="col-md-10 col-md-push-2">
               <input type="submit" id="submit" class="btn btn-primary" value="Submit">
             </div>
           </div>
         </form>
-        <ion-icon size="large" name="calendar">here</ion-icon>
+        <!-- <ion-icon size="large" name="calendar">here</ion-icon> -->
       </div>
       <div class="col-md-1">
 
