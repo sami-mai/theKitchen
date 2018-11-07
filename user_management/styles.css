@@ -32,6 +32,29 @@
     border: none;
   }
 
+  /* .navbar {
+    color: white;
+  } */
+
+  li {
+    color: white;
+  }
+
+  .navbar {
+      /* background-color: #00406E; */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 0px;
+      margin-bottom: 0px; 
+      font-size: 18px;
+      /* font-family: 'Handlee', cursive; */
+  }
+  
+  /* #myNavbar {
+    margin-bottom:0px;
+    font-size: 20px;
+  } */
+
   /* ==========================================================================
    #PAGE WRAPPER
    ========================================================================== */
@@ -72,7 +95,7 @@
    #SPACING
    ========================================================================== */
 .main-padding {
-    padding-top: 100px;
+    padding-top: 70px;
     /* padding-bottom: 75px; */
   }
   
