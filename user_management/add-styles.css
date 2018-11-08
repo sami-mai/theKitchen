@@ -150,7 +150,7 @@ input {
 .title {
     font-size: 24px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 36px;
   }
   
@@ -228,6 +228,9 @@ input {
     height: 50px;
     background: #189D9E;
     opacity: 0.7;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
   }
   table tbody tr {
     height: 55px;
@@ -325,11 +328,11 @@ input {
       margin-bottom: 0;
     }
     table tbody tr td:before {
-      font-family: OpenSans-Regular;
+      /* font-family: OpenSans-Regular;
       font-size: 14px;
-      color: #999999;
+      color: #999999; */
       line-height: 1.2;
-      font-weight: unset;
+      /* font-weight: unset; */
       position: absolute;
       width: 40%;
       left: 30px;
@@ -369,9 +372,9 @@ input {
       width: 100%;
     }
   
-    tbody tr {
+    /* tbody tr {
       font-size: 14px;
-    }
+    } */
   }
   
   @media (max-width: 576px) {
