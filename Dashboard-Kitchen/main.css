@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f0f0;
+  
+}
+  
+#sideMenu{
+    background: #4B4C4F;
+    max-width:280px;
+    width: 200px;
+    position:absolute;
+    top:0;
+    bottom:0;
+
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding:15px 30px ;
+    transition: all 0.3s ease-in-out;
+}
+a:active{
+    background: #f0f0f0;
+    border-left:  5px solid grey;
+    padding:15px 30px 15px 25px ;
+
+}
+a:hover{
+    background: #6b9b85;
+    border-left:  5px solid grey;
+    padding:15px 30px 15px 25px ;
+    
+}
+
+#nav{
+    padding-top:100px;
+
+}
+.fa{
+    font-size: 1.4rem;
+    margin-right:0.0rem;
+    display: inline-block;
+    width: 30px;
+    position:relative;
+    top: 2px;
+}
+.fa:active{
+    background: #f0f0f0;
+    border-left:  5px solid grey;
+    padding:15px 30px 15px 25px ;
+
+}
