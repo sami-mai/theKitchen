@@ -38,11 +38,11 @@
 
   .navbar {
       /* background-color: #00406E; */
-      padding-top: 10px;
+      /* padding-top: 10px;
       padding-bottom: 10px;
       border-radius: 0px;
       margin-bottom: 0px; 
-      font-size: 18px;
+      font-size: 18px; */
       /* font-family: 'Handlee', cursive; */
   }
   
@@ -79,13 +79,13 @@
     background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
     background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
     background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%); */
-    background: -moz-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(34,230,230,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
-    background:-webkit-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
-    background: -ms-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
-    background:radial-gradient(ellipse at center, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22E6E6', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+    /* background: -moz-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(34,230,230,1)), color-stop(100%, rgba(0,0,0,1)));
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%);
+    background:radial-gradient(ellipse at center, rgba(34,230,230,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22E6E6', endColorstr='#000000',GradientType=1 ); */
   }
 
   /* ==========================================================================
@@ -201,19 +201,20 @@ input {
   
   .card-3 {
   /* background: #0b2631; */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,38,49,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
-  background:-webkit-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
-  background: -ms-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
-  background:radial-gradient(ellipse at center, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b2631', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+  /* background: -moz-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,38,49,1)), color-stop(100%, rgba(0,0,0,1)));
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); 
+  background: -ms-radial-gradient(center, ellipse cover, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%);
+  background:radial-gradient(ellipse at center, rgba(11,38,49,1) 0%, rgba(0,0,0,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b2631', endColorstr='#000000',GradientType=1 ); */
+  background: url("images/salad.jpg") top left/cover no-repeat;
     width: 100%;
     display: table;
   }
   
   .card-3 .card-left {
-    background: url("images/lunch.jpg") top left/cover no-repeat;
+    /* background: url("images/yoghurt.jpg") top left/cover no-repeat; */
     display: table-cell;
     width: 50%;
   }
@@ -222,6 +223,8 @@ input {
     padding: 57px 65px;
     padding-bottom: 65px;
     display: table-cell;
+    background: #0b2631;
+    opacity: 0.9;
   }
 
 
@@ -274,6 +277,7 @@ input {
   table thead tr {
     height: 60px;
     background: #189D9E;
+    opacity: 0.7;
   }
   table tbody tr {
     height: 50px;
@@ -296,7 +300,7 @@ input {
   
   
   .table100-head th{
-    font-family: OpenSans-Regular;
+    /* font-family: OpenSans-Regular; */
     font-size: 18px;
     color: #fff;
     line-height: 1.2;
@@ -306,6 +310,7 @@ input {
   tbody tr:nth-child(even) {
     /* background-color: #f5f5f5; */
     background: #0b2631;
+    opacity: 0.8;
     color: #fff;
   }
   
