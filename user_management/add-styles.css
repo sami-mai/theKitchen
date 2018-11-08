@@ -135,6 +135,7 @@
   
   .btn-color {
     background: #189D9E;
+    opacity: 0.5;
   }
 
   .btn-left {
@@ -340,18 +341,18 @@ input {
   
   .column2 {
     width: 200px;
-    padding-right: 80px;
+    padding-right: 120px;
   }
   
   .column3 {
     width: 200px;
-    padding-right: 80px;
+    padding-right: 120px;
   }
   
   .column4 {
     width: 200px;
     text-align: right;
-    padding-right: 80px;
+    padding-right: 30px;
   }
   
   .column5 {
