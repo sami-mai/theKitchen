@@ -139,7 +139,7 @@ input {
   
   .input-style {
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #ccc;
     background: transparent;
   }
@@ -228,9 +228,9 @@ input {
     height: 50px;
     background: #189D9E;
     opacity: 0.7;
-    font-size: 24px;
+    /* font-size: 25px; */
     color: #fff;
-    font-weight: 600;
+    /* font-weight: 600; */
   }
   table tbody tr {
     height: 55px;
@@ -253,10 +253,10 @@ input {
   
   
   .table100-head th{
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     line-height: 1.2;
-    font-weight: unset;
+    font-weight: 400;
   }
   
   tbody tr:nth-child(even) {
@@ -267,9 +267,9 @@ input {
   
   tbody tr {
     font-family: OpenSans-Regular;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.2;
-    font-weight: unset;
+    font-weight: 400;
   }
   
   tbody tr:hover {
