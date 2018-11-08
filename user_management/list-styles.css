@@ -2,6 +2,62 @@
      #LIST
      ========================================================================== */
   
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+   .font-robo {
+    font-family: "Roboto";
+  }
+
+  /* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+
+  button {
+    outline: none;
+    background: none;
+    border: none;
+  }
+
+  /* ==========================================================================
+   #PAGE WRAPPER
+   ========================================================================== */
+   body {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    overflow: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  /* .navbar {
+    color: white;
+  } */
+
      .container-table100 {
         width: 100%;
         min-height: 100vh;
